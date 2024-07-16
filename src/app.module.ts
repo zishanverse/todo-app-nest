@@ -6,8 +6,6 @@ import { AppService } from './app.service';
 
 @Module({
   imports: [DatabaseModule, TodoModule, AuthModule],
-  controllers: [],
-  providers: [],
   controllers: [AppController],
   providers: [AppService],
 })
